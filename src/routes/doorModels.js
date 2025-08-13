@@ -17,13 +17,3 @@ const doorSchema = new mongoose.Schema({
 mongoose.model("Door", doorSchema);
 
 module.exports = mongoose.model("Door");
-
-// Add a new door
-const addDoor = async (door) => {
-  const newDoor = new Door(door);
-  await newDoor.save();
-  return newDoor;
-};
-
-// Get all doors
-const getDoors = async () => {
