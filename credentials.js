@@ -1,9 +1,9 @@
 var credentials = {
   credentials: {
-    client_id: '9OqBMB8kaFL1s2DjCzCsG74lW2TSeT2YnU59HZLXbWz6W5lF',
-    client_secret: 'm5XQKoK8dXtI8L6MBMsURdAD4n2RcuzalqUFEzpQVADNkC2GPqN8mqU1oxdXtdZb',
+    client_id: 'SVqtklcstUzlmsaWa2dG9AJ4gU4uVrupB7laJH2R55BP331D',
+    client_secret: 'pu9XN8UUwWAcdcJCapLNRZkq5fJag6Ajoe1KS3TQ81Q0CxczKrkRpjjU9dhk6Cik',
     grant_type: 'client_credentials',
-    scope: 'data:read viewables:read',
+    scope: 'data:read data:write data:create bucket:create bucket:read viewables:read',
   },
   
   BaseUrl: 'https://developer.api.autodesk.com',
